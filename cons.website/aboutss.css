@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: rgba(206, 86, 0, 0.655);font-family: Calibri;padding-right: 15px;padding-left: 15px;
+    padding: 10px;
+}
+.navdiv{
+    display: flex;align-items: center;justify-content: space-between;
+}
+.logo a{
+    font-size: 45px; font-weight: 600; color: white;
+}
+li{
+    list-style: none;display: inline-block;
+}
+li a{
+    color: white; font-size:18px; font-weight:bold; margin-right: 25px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+    background: rgba(216, 121, 26, 0.514);
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li{
+    display: block;
+
+}
+ul li ul.dropdown{
+    width: 100px;
+    background: #e8ba03;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #ecce81;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+p{
+    margin-right: -60px;
+    font-size: 35px;
+    font-family: calibri;
+    margin-top: 20px;
+    color: white;
+}
+img{
+     border-radius: 15px ;
+     margin-right: 10px;
+     margin-top: 10px;
+     margin-right: 10px;
+}
+.pho{
+    margin-left: 850px;
+}
+h1{
+    text-decoration:underline ;
+    font-size: 30px;
+    color: rgb(229, 255, 0);
+}
+footer{
+    padding: 2px;
+    background-color: rgba(206, 86, 0, 0.655);
+    color: white;
+   
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 332vh;
+    background-image: url("file:///C:/Users/ADMIN/Downloads/Pictures/Saved%20Pictures/modern-luxury-domestic-room-comfortable-relaxation-generative-ai_188544-12679.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(7px);
+}
